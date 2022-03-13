@@ -78,8 +78,8 @@ genfscon sysfs /devices/virtual/misc/msm_multi_aac/wakeup u:object_r:sysfs_wakeu
 genfscon sysfs /devices/virtual/misc/msm_g711mlaw/wakeup u:object_r:sysfs_wakeup:s0
 
 # USB device wakeup nodes
-genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup/wakeup u:object_r:sysfs_wakeup:s0
-genfscon sysfs /devices/platform/soc/a800000.ssusb/wakeup/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a600000.ssusb/wakeup u:object_r:sysfs_wakeup:s0
+genfscon sysfs /devices/platform/soc/a800000.ssusb/wakeup u:object_r:sysfs_wakeup:s0
 
 #qdss sysfs-node
 genfscon sysfs /devices/platform/soc/6047000.tmc/coresight-tmc-etf u:object_r:vendor_sysfs_qdss_dev:s0
