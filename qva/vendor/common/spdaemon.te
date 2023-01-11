@@ -66,3 +66,6 @@ allow vendor_spdaemon vendor_spunvm_file:file create_file_perms;
 allow vendor_spdaemon vendor_sysfs_data:file r_file_perms;
 allow vendor_spdaemon vendor_sysfs_spdaemon:file r_file_perms;
 r_dir_file(vendor_spdaemon, vendor_sysfs_spss);
+
+# Access to wakelock sysfs
+wakelock_use(vendor_spdaemon)
